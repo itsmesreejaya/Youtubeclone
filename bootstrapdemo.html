@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>
+        Tribute to Steve Jobs
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <style>
+        p.quote {
+ 
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            padding-left: 30pt;
+            padding-right: 30pt;
+            font-size: 30pt;
+            background-color: darkgray;
+            color: black;
+            text-align: center;
+        }
+ 
+        img {
+ 
+            border-image-source: url("D:\Microsoft VS Code\projects\R.png");
+            border-image-slice: 50px;
+            border-radius: 50%;
+            width: 50%;
+            height: auto;
+            margin-left: 25%;
+        }
+ 
+        img:hover {
+            transform: scale(125%);
+        }
+ 
+        div.container {
+            padding-left: 30 px;
+            background-image: radial-gradient(circle, lightgrey, white);
+        }
+ 
+        div.table-padding {
+            padding-left: 20px;
+            padding-right: 40px;
+        }
+ 
+        nav {
+            text-align: justify;
+            /* width: 250px; */
+            /* float: right; */
+            padding-left: 5px;
+            margin-left: 5px;
+        }
+ 
+        nav ul {
+ 
+            /* float: right; */
+            list-style: none;
+            padding-left: 15px;
+        }
+ 
+ 
+        nav ul li {
+            background-color: darkgray;
+            padding-left: 15px;
+            border-bottom: 1px solid white;
+            /* display: block; */
+            /* width: 5.5cm; */
+        }
+ 
+ 
+ 
+ 
+        nav ul ul li {
+            background-color: darkgray;
+            border-bottom: 1px solid goldenrod;
+            /* width: 3cm; */
+            /* padding-left: 2.9cm; */
+ 
+            /* display: block; */
+            text-align: start right;
+        }
+ 
+        /* #nav {
+            float: right;
+            position: relative;
+        } */
+ 
+        a {
+            text-decoration: none;
+        }
+ 
+        a.link,
+        a.hover {
+            color: blue
+        }
+ 
+        a.active,
+        a.visited {
+            color: blueviolet;
+        }
+ 
+ 
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-weight: bolder;
+        }
+ 
+        footer {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 5 pt;
+            float: none;
+            text-align: center;
+            background-color: darkgray;
+            color: black;
+        }
+ 
+        td.time {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+        }
+ 
+        table {
+            width: 75%;
+ 
+        }
+ 
+        table,
+        tr,
+        th,
+        td {
+            /* border: 2px solid;
+            border-color: black; */
+            border-collapse: collapse;
+            padding: 0.25cm;
+            margin-left: 1cm;
+ 
+        }
+ 
+        /* table tr:nth-child(even) {
+            background-color: lightgrey;
+        } */
+ 
+       /* article.steve{
+            column-count: 3;
+            column-gap: 21px;
+            padding: 2cm 2cm 1cm 2cm;
+           
+        }     */
+ 
+       
+        .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 21px;
+}
+.grid-item {
+  /* background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 20px;
+  text-align: center;
+}
+ 
+        /* h1.steve{
+            text-align: centre;
+            column-span: all;
+        } */
+ 
+        p.steve{
+            margin-top:0px;
+            margin-bottom: 12px;
+        }
+ 
+        div.video {
+            text-align: center;
+            padding-top: 1cm;
+        }
+    </style>
+ 
+</head>
+ 
+<body>
+ 
+    <h1 style="font-size: 40pt;" id="top">TRIBUTE TO STEVE JOBS</h1>
+ 
+    <p class="quote"> The people who are crazy enough to think they can change the world are the ones who do.</p>
+   
+    <div class="row ">
+        <div class="col-md-8 col-lg-7" style="padding: 5 px;">
+            <h1>TIMELINE</h1>
+           
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-hover bg-dark border-color-danger">
+                        <tr>
+                            <td class="time">24 Feb 1955</td>
+                            <td>Steven Paul was born in San Francisco, the son of Abdulfattah Jandali and Joanne Schieble. He is
+                                quickly adopted by Paul and Clara Jobs</td>
+                        </tr>
+                        <tr>
+                            <td class="time">1969</td>
+                            <td>Steve Jobs meets Steve Wozniak, 5 years older, through a mutual friend. Woz and Steve share a love
+                                of electronics, Bob Dylan, and pranks</td>
+                        </tr>
+                        <tr>
+                            <td class="time">Mar 1976</td>
+                            <td>Woz and Steve show the early Apple I board at the Homebrew Computer Club</td>
+                        </tr>
+                        <tr>
+                            <td class="time">28 Aug 1976</td>
+                            <td>Steve Jobs and Woz show off the Apple I at the Personal Computing Festival in Atlantic City, with
+                                help from Dan Kottke</td>
+                        </tr>
+                        <tr>
+                            <td class="time">1978</td>
+                            <td>At Apple, work starts on the Apple III and the Lisa, while Jef Raskin begins The Book of Macintosh
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="time">May 1980</td>
+                            <td>Apple launches the Apple III, which will prove a disastrous flop</td>
+                        </tr>
+                        <tr>
+                            <td class="time">Jan 1983</td>
+                            <td> Launch of the Lisa computer. The Lisa team later merges with the Mac team under Steve Jobs's
+                                leadership</td>
+                        </tr>
+                        <tr>
+                            <td class="time">8 Apr 1983</td>
+                            <td>PepsiCo CEO John Sculley becomes Apple's CEO after having been wooed by Steve Jobs for several
+                                months</td>
+                        </tr>
+                        <tr>
+                            <td class="time">17 Sep 1985</td>
+                            <td>Steve Jobs resigns from Apple and starts NeXT with five other refugees from Apple. Apple announces
+                                it will sue NeXT</td>
+                        </tr>
+                        <tr>
+                            <td class="time">Dec 1996</td>
+                            <td>Apple, which was desperately looking for a modern operating system to buy, eventually buys NeXT for
+                                $400 million. Steve Jobs is named "informal adviser" to Apple CEO Gil Amelio</td>
+                        </tr>
+                        <tr>
+                            <td class="time">6 May 1998</td>
+                            <td>Steve Jobs introduces Apple's revolutionary iMac at the Flint Center auditorium in Cupertino, 14
+                                years after he had introduced the Macintosh at that same place</td>
+                        </tr>
+                        <tr>
+                            <td class="time">5 Oct 1999</td>
+                            <td>Introduction of the iMac DVs and of iMovie, the first of Apple's first Digital Hub app</td>
+                        </tr>
+                        <tr>
+                            <td class="time">28 Apr 2003</td>
+                            <td>Apple opens the revolutionary online iTunes Music Store in the US, after negotiating landmark deals
+                                with all major music labels</td>
+                        </tr>
+                        <tr>
+                            <td class="time">15 Jan 2008</td>
+                            <td>At Macworld 2008, Steve Jobs introduces MacBook Air, with the tagline 'the world's thinnest
+                                notebook'. Three years later, it will come to redefine all of Apple's notebook product line</td>
+                        </tr>
+                        <tr>
+                            <td class="time">24 Aug 2011</td>
+                            <td>Steve Jobs resigns as CEO of Apple, with the words 'I have always said if there ever came a day when
+                                I could no longer meet my duties and expectations as Apple's CEO, I would be the first to let you
+                                know. Unfortunately, that day has come.' Tim Cook becomes Apple CEO</td>
+                        </tr>
+                        <tr>
+                            <td class="time">5 Oct 2011</td>
+                            <td>Steve Jobs dies at home, surrounded by his family</td>
+                        </tr>
+                    </table>
+                </div>
+               
+           
+   
+        </div>
+ <table class="table-bordered table-responsive">
+    <nav class="col-md-2 col-lg-2">
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Steve_Jobs"> Steve Jobs- Wikipedia</a></li>
+            <li><a href="https://www.britannica.com/biography/Steve-Jobs">Steve Jobs- Brittanica</a></li>
+            <li><a href="https://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537"> Steve Jobs Biography-
+                    Amazon</a></li>
+            <li><a href="https://www.apple.com/in/stevejobs/">Remembering Steve- Apple</a>
+                <ul>
+                    <li>random link 1</li>
+                    <li>random link 2</li>
+                    <li>random link 3</li>
+
+                </ul>
+            </li>
+            <li>Random major link about Steve</li>
+        </ul>
+    </nav>
+ </table>
+    </div>
+ 
+   
+    <div class="row">
+        <div class="col- h1">Innovation and Design</div>
+    </div>
+ 
+    <div class="container-fluid">
+        <article>    
+ 
+            <div class="row">
+                <div class="col-xs-1 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    Jobs' design aesthetic was influenced by philosophies of Zen and Buddhism. In India, he experienced Buddhism
+                    while on his seven-month spiritual journey,[232] and his sense of intuition was influenced by the spiritual
+                    people with whom he studied.[232] He also learned from many references and sources, such as modernist
+                    architectural style of Joseph Eichler,[citation needed] and the industrial designs of Richard Sapper[233]
+                    and Dieter Rams.[citation needed]
+       
+                    According to Apple co-founder Steve Wozniak, "Steve didn't ever code. He wasn't an engineer and he didn't do
+                    any original design..."[234][235] Daniel Kottke, one of Apple's earliest employees and a college friend of
+                    Jobs's, stated: "Between Woz and Jobs, Woz was the innovator, the inventor. Steve Jobs was the marketing
+                    person."[236]
+                </div>
+                <div class="col-xs-1 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    He is listed as either primary inventor or co-inventor in 346 United States patents or patent applications
+                    related to a range of technologies from actual computer and portable devices to user interfaces (including
+                    touch-based), speakers, keyboards, power adapters, staircases, clasps, sleeves, lanyards and packages.
+                    Jobs's contributions to most of his patents were to "the look and feel of the product". His industrial
+                    design chief Jonathan Ive had his name along with Jobs's name for 200 of the patents.[237] Most of these are
+                    design patents (specific product designs; for example, Jobs listed as primary inventor in patents for both
+                    original and lamp-style iMacs, as well as PowerBook G4 Titanium) as opposed to utility patents
+                    (inventions).[238][239] He has 43 issued US patents on inventions.[238] The patent on the Mac OS X Dock user
+                    interface with "magnification" feature was issued the day before he died.[240] Although Jobs had little
+                    involvement in the engineering and technical side of the original Apple computers,[235] Jobs later used his
+                    CEO position to directly involve himself with product design.[241]
+                </div>
+                <div class="col-xs-1 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    Involved in many projects throughout his career was his long-time marketing executive and confidant Joanna
+                    Hoffman, known as one of the few employees at Apple and NeXT who could successfully stand up to Jobs while
+                    also engaging with him.[242]
+               
+                    Even while terminally ill in the hospital, Jobs sketched new devices that would hold the iPad in a hospital
+                    bed.[209] He also despised the oxygen monitor on his finger, and suggested ways to revise the design for
+                    simplicity.[243]
+       
+                    Since his death, the former Apple CEO has won 141 patents, more than most inventors win during their
+                    lifetimes. Currently, Jobs holds over 450 patents.
+       
+                </div>
+            </div>
+        </article>
+    </div>
+ 
+ 
+    <div style="text-align:center; font-size: 20pt;"> <a href="D:\Microsoft VS Code\projects\steve jobs pdf.pdf"
+            target="_blank"> Click to access Steve Jobs Biography by Walter Isaacson</a></div>
+ 
+    <div class="video">
+        <iframe class="border" width="560" height="315" src="https://www.youtube.com/embed/wz0j7z38LIg"
+            title="YouTube video player" frameborder="10"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+ 
+        </iframe>
+    </div>
+ 
+    <footer style="float:right; background-color: white;"><a id="nav" href="#top">Go to Top</a></footer>
+ 
+    <address>contact at <a href="mailto:shreyaharidas15@gmail.com"> shreyaharidas15@gmail.com</a></address>
+ 
+    <p></p>
+ 
+    <footer>Copyright: 2023 Shreya Haridas. All rights reserved</footer>
+ 
+ 
+</body>
+ 
+</html>
